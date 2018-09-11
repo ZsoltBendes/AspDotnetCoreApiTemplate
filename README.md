@@ -1,11 +1,12 @@
 # AspDotnetCoreApiTemplate
 [![Build Status](https://zsoltbendes.visualstudio.com/VSAPITemplate/_apis/build/status/ZsoltBendes.AspDotnetCoreApiTemplate)](https://zsoltbendes.visualstudio.com/VSAPITemplate/_build/latest?definitionId=7)
-This is an empty template for creating new asp.net core api back end. It contains stuff I usually use in.
+</br>This is an empty template for creating new asp.net core api back end. It contains stuff I usually use in.
 What I added to the empty template is:
-- swagger
+- Swagger
 - AutoMapper
 - Api versioning
 - Sentry
+
 Additionally I added an empty DB context.
 ## Swagger - aka OpenAPI
 Swashbuckle allows to generate Swagger page from code and comments. This helps me to ensure I have clean api and don't have any route conflicts. You can test the apis with the swagger UI.
